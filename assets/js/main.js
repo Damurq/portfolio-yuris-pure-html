@@ -6,23 +6,23 @@ const navMenu = document.getElementById("nav-menu"),
 /*===== MENU SHOW =====*/
 /* Validate if constant exists */
 if (navToggle) {
-    navToggle.addEventListener('click',() => { 
+    navToggle.addEventListener('click', () => {
         navMenu.classList.add('show-menu')
-     })
+    })
 }
 
 /*===== MENU HIDDEN =====*/
 /* Validate if constant exists */
-if (navClose){
-    navClose.addEventListener('click',() => { 
+if (navClose) {
+    navClose.addEventListener('click', () => {
         navMenu.classList.remove('show-menu')
-     })
+    })
 }
 
 /*==================== REMOVE MENU MOBILE ====================*/
 const navLink = document.querySelectorAll('.nav__link')
 
-function linkAction(){
+function linkAction() {
     const navMenu = document.getElementById('nav-menu')
     // When we click on each nav__link, we remove the show-menu class
     navMenu.classList.remove('show-menu')
@@ -30,14 +30,64 @@ function linkAction(){
 navLink.forEach(n => n.addEventListener('click', linkAction))
 
 /*==================== ACCORDION SKILLS ====================*/
+const skillsContent = document.getElementsByClassName('skills__content'),
+    skillsHeader = document.getElementsByClassName('skills__header')
 
+function toggleSkills() {
+    let itemClass = this.parentNode.className
+    for (let i = 0; i < skillsContent.length; i++) {
+        skillsContent[i].className = 'skills__content skills__close'
+    }
+    if (itemClass === 'skills__content skills__close') {
+        this.parentNode.className = 'skills__content skills__open'
+    }
+}
 
+Array.from(skillsHeader).forEach((el) => {
+    el.addEventListener('click', toggleSkills)
+})
 /*==================== QUALIFICATION TABS ====================*/
+const tabs = document.querySelectorAll('[data-target]')
+tabContents = document.querySelectorAll('[data-content]')
 
+Array.from(tabs).forEach((tab) => {
+    tab.addEventListener('click', () => {
+        const target = document.querySelector(tab.dataset.target)
 
+        Array.from(tabContents).forEach((tabContent) => {
+            tabContent.classList.remove('qualification__active')
+        })
+        target.classList.add('qualification__active')
+
+        tabs.forEach((ta) => {
+            ta.classList.remove('qualification__active')
+        })
+        tab.classList.add('qualification__active')
+    })
+})
 /*==================== SERVICES MODAL ====================*/
 
+const modalView = document.querySelectorAll('.services__modal'),
+    modalBtns = document.querySelectorAll('.services__button'),
+    modalCloses = document.querySelectorAll('.services__modal-close')
 
+let modal = function (modalClic) {
+    modalView[modalClic].classList.add('active-modal')
+}
+
+Array.from(modalBtns).forEach((modalBtn, i) => {
+    modalBtn.addEventListener('click', () => {
+        modal(i)
+    })
+})
+
+Array.from(modalCloses).forEach((modalClose) => {
+    modalClose.addEventListener('click', () => {
+        Array.from(modalView).forEach((modalView) => {
+            modalView.classList.remove('active-modal')
+        })
+    })
+})
 /*==================== PORTFOLIO SWIPER  ====================*/
 
 
@@ -47,10 +97,10 @@ navLink.forEach(n => n.addEventListener('click', linkAction))
 /*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
 
 
-/*==================== CHANGE BACKGROUND HEADER ====================*/ 
+/*==================== CHANGE BACKGROUND HEADER ====================*/
 
 
-/*==================== SHOW SCROLL UP ====================*/ 
+/*==================== SHOW SCROLL UP ====================*/
 
 
 /*==================== DARK LIGHT THEME ====================*/ 
