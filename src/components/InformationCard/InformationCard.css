@@ -1,0 +1,10 @@
+.contact__icon{
+    font-size: 2rem;
+    color: var(--first-color);
+    margin-right: var(--mb-0-75);
+}
+
+.contact__information{
+    display: flex;
+    margin-bottom: var(--mb-2);
+}

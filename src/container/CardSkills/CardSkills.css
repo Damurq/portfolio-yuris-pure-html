@@ -1,0 +1,20 @@
+/*==================== SKILLS ====================*/
+.skills__container{
+    row-gap: 0;
+}
+
+/*==================== MEDIA QUERIES ====================*/
+/* For small devices */
+@media screen and (max-width: 350px) {
+    .skills__title{
+        font-size: var(--normal-font-size);
+    }
+}
+
+/* For medium devices */
+@media screen and (min-width: 568px){
+    .skills__container{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+} 

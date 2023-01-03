@@ -1,0 +1,18 @@
+.qualification__tabs{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: var(--mb-2);
+}
+
+.qualification__button.qualification__active{
+    color: var(--first-color);
+}
+
+@media screen and (min-width: 768px){
+    .qualification__tabs{
+        justify-content: space-evenly;
+    }
+    .qualification__button{
+        margin: 0 var(--mb-1);
+    }
+}

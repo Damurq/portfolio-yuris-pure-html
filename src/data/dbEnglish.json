@@ -1,0 +1,279 @@
+{
+    "components": {
+        "Navbar": [
+            {
+                "name": "Home",
+                "type": "a",
+                "href": "#home",
+                "icon": "home"
+            },
+            {
+                "name": "About me",
+                "type": "a",
+                "href": "#about",
+                "icon": "user"
+            },
+            {
+                "name": "Skills",
+                "type": "a",
+                "href": "#skills",
+                "icon": "skills"
+            },
+            {
+                "name": "Services",
+                "type": "a",
+                "href": "#services",
+                "icon": "services"
+            },
+            {
+                "name": "Portfolio",
+                "type": "a",
+                "href": "#portfolio",
+                "icon": "portfolio"
+            },
+            {
+                "name": "Contact",
+                "type": "a",
+                "href": "#contact",
+                "icon": "send"
+            }
+        ],
+        "IconGroup": [
+            {
+                "name": "github",
+                "href": "https://github.com/",
+                "classIcon": "uil-github-alt"
+            },
+            {
+                "name": "instagram",
+                "href": "",
+                "classIcon": "uil-instagram"
+            },
+            {
+                "name": "linkedin",
+                "href": "https://www.linkedin.com/",
+                "classIcon": "uil-linkedin-alt"
+            }
+        ],
+        "CardPresentation": {
+            "img": "assets/img/perfil.png",
+            "presentation": "Hi, I'm Yurisbellys Brizuella",
+            "profetion": "Web Developer",
+            "description": "High level experience in web design and development knowledge, producing quality work.",
+            "button": {
+                "description": "Contact Me",
+                "href": "#contact"
+            }
+        },
+        "CardAboutMe": {
+            "HeaderComponent": {
+                "title": "About me",
+                "subtitle": "My introduction"
+            },
+            "description": "Web developer, with extensive knowledge and years of experience, working in web technologies and Ui / Ux design, delivering quality work.",
+            "experience": [
+                {
+                    "amount": "8+",
+                    "description": "Years experience"
+                },
+                {
+                    "amount": "20+",
+                    "description": "Completed project"
+                },
+                {
+                    "amount": "5+",
+                    "description": "Companies worked"
+                }
+            ]
+        },
+        "CardSkills": {
+            "HeaderComponent": {
+                "title": "Skills",
+                "subtitle": "My technical level"
+            },
+            "skills": [
+                {
+                    "name": "Frontend developer",
+                    "description": "More than 2 years",
+                    "icon": "brackets",
+                    "options": [
+                        {
+                            "title": "HTML",
+                            "percentage": "90%"
+                        },
+                        {
+                            "title": "JavaScript",
+                            "percentage": "70%"
+                        },
+                        {
+                            "title": "CSS",
+                            "percentage": "90%"
+                        },
+                        {
+                            "title": "React",
+                            "percentage": "85%"
+                        }
+                    ]
+                },
+                {
+                    "name": "Backend developer",
+                    "description": "More than 2 years",
+                    "icon": "database",
+                    "options": [
+                        {
+                            "title": "Python",
+                            "percentage": "90%"
+                        },
+                        {
+                            "title": "Django",
+                            "percentage": "70%"
+                        }
+                    ]
+                }
+            ]
+        },
+        "CardQualification": {
+            "HeaderComponent": {
+                "title": "Qualification",
+                "subtitle": "My personal journey"
+            },
+            "elements": {
+                "education": {
+                    "header": "Education",
+                    "icon": "education",
+                    "qualifications": [
+                        {
+                            "header": "Computer Enginer",
+                            "description": "UCLA",
+                            "date": "2016 - 2022"
+                        },
+                        {
+                            "header": "Computer Enginer",
+                            "description": "UCLA",
+                            "date": "2016 - 2022"
+                        }
+                    ]
+                },
+                "work": {
+                    "header": "Work",
+                    "icon": "work",
+                    "qualifications": [
+                        {
+                            "header": "Frontend Developer",
+                            "description": "UCLA",
+                            "date": "2016 - 2022"
+                        },
+                        {
+                            "header": "Software Enginer",
+                            "description": "Google",
+                            "date": "2016 - 2022"
+                        }
+                    ]
+                }
+            }
+        },
+        "SectionServices": {
+            "HeaderComponent": {
+                "title": "Services",
+                "subtitle": "What i offer"
+            },
+            "Services":[
+                {
+                    "title": "Ui/Ux - Designer",
+                    "icon": "design",
+                    "elements": [
+                        "I create ux element interactions.",
+                        "I create ux element interactions.",
+                        "I create ux element interactions.",
+                        "I create ux element interactions."
+                    ]
+                },
+                {
+                    "title": "Frontend",
+                    "icon": "frontend",
+                    "elements": [
+                        "I create ux element interactions.",
+                        "I create ux element interactions.",
+                        "I create ux element interactions.",
+                        "I create ux element interactions."
+                    ]
+                },
+                {
+                    "title": "Backend",
+                    "icon": "database",
+                    "elements": [
+                        "I create ux element interactions.",
+                        "I create ux element interactions.",
+                        "I create ux element interactions.",
+                        "I create ux element interactions."
+                    ]
+                }
+            ]
+        },
+        "Message": {
+            "title":"You have a new project",
+            "description":"Website adaptable to all devices, with ui components and animated interactions."
+        },
+        "CardPortfolio": [
+            {
+                "id": "01",
+                "type": "web-site",
+                "photosrc": "/portfolio/damageControl.png",
+                "path": "/"
+            },
+            {
+                "id": "02",
+                "type": "web-site",
+                "photosrc": "/portfolio/tuiphone.png",
+                "path": ""
+            },
+            {
+                "id": "03",
+                "type": "app-desk",
+                "photosrc": "/portfolio/cinesVenezuela.png",
+                "path": ""
+            },
+            {
+                "id": "05",
+                "type": "app",
+                "photosrc": "/portfolio/dataExploration.png",
+                "path": ""
+            },
+            {
+                "id": "04",
+                "type": "app-desk",
+                "photosrc": "/portfolio/damageControlDesk.png",
+                "path": ""
+            }
+        ],
+        "Contact": {
+            "HeaderComponent": {
+                "title": "Contact me",
+                "subtitle": "Get in touch"
+            },
+            "extra": [
+                {
+                    "icon": "phone",
+                    "label": "Call Me",
+                    "info": "0424-"
+                },
+                {
+                    "icon": "email",
+                    "label": "Email",
+                    "info": "@gmail.com"
+                },
+                {
+                    "icon": "location",
+                    "label": "Location",
+                    "info": "Venezuela-Barquisimetos"
+                }
+            ]
+        },
+        "Footer":{
+            "HeaderComponent": {
+                "title": "Yurisbellys Brizuela",
+                "subtitle": "Frontend developer"
+            }
+        }
+    }
+}
