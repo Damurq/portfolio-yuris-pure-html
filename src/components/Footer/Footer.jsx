@@ -34,7 +34,6 @@ const Footer = () => {
                         <IconGroup section="footer" />
                     </div>
                 </div>
-                <p className="footer__copy">&#169; Michael Montero. All right reserved</p>
             </div>
         </footer>)
 }

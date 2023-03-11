@@ -3,7 +3,7 @@ import React from 'react'
 import { FiDownload } from 'react-icons/fi'
 // Local
 import HeaderComponent from '../../components/HeaderComponent/HeaderComponent'
-import about_img from "../../assets/img/about.jpg"
+import about_img from "../../assets/img/about.png"
 // Data
 import dbEnglish from "../../data/dbEnglish.json"
 // Style

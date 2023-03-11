@@ -2,7 +2,7 @@ import React from 'react'
 import './CardPortfolio.css'
 
 const CardPortfolio = () => {
-    let srcImg = "../../assets/img/about.jpg"
+    let srcImg = "../../assets/img/about.png"
 
     return (
         <section className="portfolio section" id="portfolio">

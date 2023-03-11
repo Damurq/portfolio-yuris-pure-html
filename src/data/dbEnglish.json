@@ -25,12 +25,7 @@
                 "href": "#services",
                 "icon": "services"
             },
-            {
-                "name": "Portfolio",
-                "type": "a",
-                "href": "#portfolio",
-                "icon": "portfolio"
-            },
+
             {
                 "name": "Contact",
                 "type": "a",

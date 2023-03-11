@@ -1,25 +1,27 @@
 import React from 'react'
-import CardSkills from '../../container/CardSkills/CardSkills'
 import CardAboutMe from '../../container/CardAboutMe/CardAboutMe'
+import CardPortfolio from '../../container/CardPortfolio/CardPortfolio'
 import CardPresentation from '../../container/CardPresentation/CardPresentation'
-import ScrollTop from '../../stateless/ScrollTop'
 import CardQualification from '../../container/CardQualification/CardQualification'
+import CardSkills from '../../container/CardSkills/CardSkills'
 import Contact from '../../container/CardContact/CardContact'
-import SectionServices from '../../container/SectionServices/SectionServices'
 import Message from '../../components/Message/Message'
+import ScrollTop from '../../stateless/ScrollTop'
+import SectionServices from '../../container/SectionServices/SectionServices'
 
 const Home = () => {
     return (
-        <React.Fragment>
+        <>
             <CardPresentation />
             <CardAboutMe />
             <CardSkills />
             <CardQualification />
             <SectionServices />
+            {/* <CardPortfolio /> */}
             <Message />
             <Contact />
             <ScrollTop />
-        </React.Fragment>
+        </>
     )
 }
 

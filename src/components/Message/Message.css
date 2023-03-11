@@ -21,6 +21,8 @@
 .project__img{
     width: 232px;
     justify-self: center;
+    padding-bottom: 2rem;
+    border-radius: 45px;
 }
 
 /*==================== MEDIA QUERIES ====================*/
